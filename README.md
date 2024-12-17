@@ -92,6 +92,5 @@ Several areas of improvement and future work could be considered:
 Parameter Tuning: Fine-tuning the parameters of the Genetic Algorithm and experimenting with different classifiers such as Support Vector Machines (SVM) or Logistic Regression could further improve performance.
 Larger Dataset: Testing the model on a larger dataset would help improve its generalization and enhance performance.
 Real-Time Detection: Implementing the model for real-time phishing detection in email systems would make the solution practical and usable in real-world scenarios.
-csharp
-Copy code
+
 
