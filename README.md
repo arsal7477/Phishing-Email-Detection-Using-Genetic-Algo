@@ -86,7 +86,7 @@ Precision, Recall, and F1-Score Over Generations: A plot that tracks how the mod
 ## Conclusion
 In this project, we successfully demonstrated the use of a Genetic Algorithm for feature selection and Random Forest for phishing email detection. The Genetic Algorithm effectively optimized the feature set, improving the model's ability to classify phishing emails. The final model achieved an accuracy of 95.45%, precision of 96.89%, recall of 95.15%, and an F1-score of 96.01%. The visualizations provided valuable insights into how the model improved over generations, helping track the progress of the optimization process.
 
-##Future Work
+## Future Work
 Several areas of improvement and future work could be considered:
 
 Parameter Tuning: Fine-tuning the parameters of the Genetic Algorithm and experimenting with different classifiers such as Support Vector Machines (SVM) or Logistic Regression could further improve performance.
