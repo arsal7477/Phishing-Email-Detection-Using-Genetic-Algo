@@ -37,7 +37,7 @@ You can install the necessary packages using `pip`:
 
 ```bash
 pip install numpy pandas matplotlib scikit-learn deap
-
+```
 ## Setup and Usage
 
 ### 1. Clone the repository
