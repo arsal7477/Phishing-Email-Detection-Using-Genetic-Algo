@@ -37,3 +37,14 @@ You can install the necessary packages using `pip`:
 
 ```bash
 pip install numpy pandas matplotlib scikit-learn deap
+
+## Setup and Usage
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/arsal7477/Phishing-Email-Detection-Using-Genetic-Algo/blob/main/Phishing_detection.ipynb
+cd phishing-email-detection
+
+Next, you need to download the phishing_email.csv dataset from Kaggle or upload it into the project directory. Ensure that the dataset is formatted correctly with each email having features such as the body text, URL count, and a label indicating whether the email is phishing (1) or legitimate (0).
+
+Once the dataset is in place, you can run the script to start the phishing email detection process:
