@@ -67,7 +67,7 @@ Final Precision: 96.89%
 Final Recall: 95.15%
 Final F1-Score: 96.01%
 ```
-##Methodology
+## Methodology
 The first step in the methodology is Data Preprocessing, where the dataset is cleaned and preprocessed by removing irrelevant characters and extracting relevant features. The email content is processed using TF-IDF (Term Frequency-Inverse Document Frequency), which transforms the text data into numerical data suitable for machine learning.
 
 Next, the Feature Selection using Genetic Algorithm is performed. A Genetic Algorithm (GA) is used to select the most relevant features that help distinguish phishing emails from legitimate ones. The GA iterates through several generations, selecting, crossing over, and mutating feature sets, evaluating them based on their classification performance.
@@ -76,14 +76,14 @@ Once the optimal features are selected by the GA, Model Training takes place. A 
 
 After training the model, it is evaluated on a test set using various performance metrics, including accuracy, precision, recall, and F1-score. The performance is visualized over generations to assess how the Genetic Algorithm improves the classification process.
 
-##Visualizations
+## Visualizations
 The project provides several visualizations to assess model performance:
 
 Fitness Over Generations: A plot showing how the GA's best fitness improved over generations, indicating the convergence of the optimization process.
 Confusion Matrix: A matrix that displays the true positives, false positives, true negatives, and false negatives, offering a detailed view of the classifier's performance.
 Precision, Recall, and F1-Score Over Generations: A plot that tracks how the model's precision, recall, and F1-score evolved during training, helping evaluate how well the model balances detecting phishing emails and avoiding false positives.
 
-##Conclusion
+## Conclusion
 In this project, we successfully demonstrated the use of a Genetic Algorithm for feature selection and Random Forest for phishing email detection. The Genetic Algorithm effectively optimized the feature set, improving the model's ability to classify phishing emails. The final model achieved an accuracy of 95.45%, precision of 96.89%, recall of 95.15%, and an F1-score of 96.01%. The visualizations provided valuable insights into how the model improved over generations, helping track the progress of the optimization process.
 
 ##Future Work
